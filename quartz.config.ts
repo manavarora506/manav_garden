@@ -3,11 +3,11 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Ishan's Cafe",
+    pageTitle: "Manav's Digital Garden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "google", tagId: "G-LMSG0JHBFB",
+      provider: "plausible",
     },
     baseUrl: "www.ishan.coffee",
     ignorePatterns: ["private", "templates", ".obsidian"],
@@ -20,22 +20,22 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f5f2e9",
-          lightgray: "#e0dcd3",
+          light: "#faf8f8",
+          lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#384b73",
+          secondary: "#284b63",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#1a1915",
+          light: "#161618",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#5d7da5",
+          secondary: "#7b97aa",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
