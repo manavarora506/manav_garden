@@ -5,4 +5,5 @@ tags:
   - seed
 enableToc: true
 ---
-- NBA tool
+
+- Website that gathers your favorite NBA team's top news, podcast episodes, tweets, etc. (Maybe do only Mavs first)

@@ -1,5 +1,5 @@
 ---
-title: Welcome to my Digital Cafe
+title: Welcome to my Digital Garden
 date: 2023-11-10
 enableToc: true
 ---
