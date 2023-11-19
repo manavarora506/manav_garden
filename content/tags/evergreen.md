@@ -1,4 +1,4 @@
 ---
 title: Evergreen
-description: Evergreen notes are long-lasting, from idea lists to resources to books I'm reading.
+description: Evergreen notes are long-lasting, and you will revisit them again and again.
 ---
