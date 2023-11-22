@@ -6,3 +6,4 @@ tags:
 enableToc: true
 ---
 [Markdown guide](https://www.markdownguide.org/basic-syntax/#code)
+[langchain reference](https://github.com/gkamradt/langchain-tutorials/blob/main/LangChain%20Cookbook%20Part%202%20-%20Use%20Cases.ipynb)

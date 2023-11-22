@@ -1,6 +1,6 @@
 ---
 title: "{{title}}"
-date: 2023-11-19
+date: ""
 tags:
   - seed
 enableToc: false
