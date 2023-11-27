@@ -48,4 +48,4 @@ enableToc: true
 	- data poisoning/backdoor attacks 
 		- trigger words causes model outputs to become random or changed in a specific way
 
-![[Pasted image 20231127110732.png]]
+![[llm_os.png]]
