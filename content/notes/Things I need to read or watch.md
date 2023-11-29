@@ -8,3 +8,6 @@ enableToc: true
 ## Videos
 - [Word  Embeddings](https://www.youtube.com/watch?v=viZrOnJclY0&t=204s&ab_channel=StatQuestwithJoshStarmer)
 ## Books
+
+## Articles
+- [swift guide](https://guides.codepath.com/ios/Understanding-Swift)
