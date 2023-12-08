@@ -21,3 +21,15 @@ Back Propagation: for every single value, compute the derivative of that node wi
 - A layer of neurons is a set of neurons evaluated independently 
 - Gradients for inputs are not very useful because it is fixed
 - For very large amounts of data, we use batches which is usually some subset of the data
+
+## The spelled-out intro to language modeling: building makemore
+
+- Bigram language model: only looking at two characters at a time
+- https://pytorch.org/tutorials/beginner/basics/tensorqs_tutorial.html
+- https://pytorch.org/tutorials/beginner/nlp/pytorch_tutorial.html
+- https://cs231n.github.io/python-numpy-tutorial/
+- Goal: maximize likelihood of the data w.r.t. model parameters (statistical modeling)
+	- equivalent to maximizing the log likelihood (because log is monotonic)
+	- equivalent to minimizing the negative log likelihood
+	- equivalent to minimizing the average negative log likelihood
+	- log(a*b*c) = log(a) * log(b) * log(c)

@@ -29,3 +29,14 @@ I have an unhealthy obsession with Dallas Mavericks Basketball. This will be a s
 - This team really needs Hardaway 
 - This team is still too small, needs way more size
 - O-Max still has ways to go
+
+## Mavs vs Jazz - 12/7/23
+
+### My thoughts:
+- Luka is built *different
+- Exum may need to become a full time starter
+- [[Lively]] > Kessler
+- Irving's dunk was a beautiful sight to see
+- OMax defense is legit
+- Hardaway is very valuable for this team
+- Still need a backup center   
