@@ -40,3 +40,9 @@ I have an unhealthy obsession with Dallas Mavericks Basketball. This will be a s
 - OMax defense is legit
 - Hardaway is very valuable for this team
 - Still need a backup center   
+
+## Mavs vs Blazers - 12/8/23
+- I really hope Kyrie is okay. That injury was gross to see.
+- Hardaway has been so steady for us
+- Exum should be the 3rd starter
+- [[Lively]] is our second most valuable player
