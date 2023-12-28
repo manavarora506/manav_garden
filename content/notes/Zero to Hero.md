@@ -33,3 +33,13 @@ Back Propagation: for every single value, compute the derivative of that node wi
 	- equivalent to minimizing the negative log likelihood
 	- equivalent to minimizing the average negative log likelihood
 	- log(a*b*c) = log(a) * log(b) * log(c)
+- Be cautious of tensor APIs
+- common way to encode integers is to use one hot encoding
+- outputs of neural net is log counts (logits)
+- softmax activation function
+- the loss is the average negative log likelihood
+- how to optimize a neural net
+	- start with a random guess
+	- now we have a loss function (made up of differentiable functions)
+	- minimize loss by tuning w's by computing gradients of the loss with respect to w
+	- one hot encoding really just selects a row of the next Liner layer's weight matrix

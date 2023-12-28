@@ -42,7 +42,19 @@ I have an unhealthy obsession with Dallas Mavericks Basketball. This will be a s
 - Still need a backup center   
 
 ## Mavs vs Blazers - 12/8/23
+
+### My thoughts:
 - I really hope Kyrie is okay. That injury was gross to see.
 - Hardaway has been so steady for us
 - Exum should be the 3rd starter
 - [[Lively]] is our second most valuable player
+
+## Mavs vs Lakers - 12/12/23
+
+### My thoughts:
+- Exum had the best game of his career
+- Grant Williams had a great game, maybe he had just been tired
+- Hardaway was a killer
+- Luka is a top 3 passer in the NBA
+- Hardy minutes were bad
+- Lively played just enough defense for us to win
