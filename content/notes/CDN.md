@@ -12,3 +12,5 @@ enableToc: true
 Use cloud CDN to improve performance and reduce serving costs for regularly accessed content by automatically caching static content. 
 
 The indirect benefit is that you actually see a reduction in the load or a reduction in the amount of capacity that you need in Dallas to serve all those users. There is also in an increase in security due to obscurity. 
+
+      
