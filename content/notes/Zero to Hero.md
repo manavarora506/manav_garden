@@ -43,3 +43,16 @@ Back Propagation: for every single value, compute the derivative of that node wi
 	- now we have a loss function (made up of differentiable functions)
 	- minimize loss by tuning w's by computing gradients of the loss with respect to w
 	- one hot encoding really just selects a row of the next Liner layer's weight matrix
+
+# Let's Build the GPT Tokenizer
+
+- How do plug text into LLM
+- token are unit in LLM
+- splitting of words is arbitrary
+- tokens are case sensitive 
+- non-english languages work slightly worse in chat gpt bc of how data is trained
+- A lot more tokens for non-english, which bloats sequence length 
+- GPT2 is not code with python bc it tokenizes all the indentations 
+- GPT4 groups whitespaces 
+- Can't use unicode because how how long it is and it is always changing
+- Byte-pair encoding -> helps reduce vocubalary size by recursively finding the most frequent sequence and replacing it with a single char 
