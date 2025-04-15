@@ -1,5 +1,5 @@
 ---
-title: CAP theorem
+title: CAPTheorem
 date: 2025-04-14
 tags:
   - sapling

@@ -296,7 +296,7 @@ Functional Requirements:
 3) search for events
 
 NonFunctional Requirements:
-1) Ask [[CAP theorem]] Availability or Consistency 
+1) Ask [[CAPTheorem]] Availability or Consistency 
 1) Strong consistency for booking tickets and high availability for search and viewing events
 2) read >> write
 3) Scalability to handle surges from popular events 
