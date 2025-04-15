@@ -296,7 +296,7 @@ Functional Requirements:
 3) search for events
 
 NonFunctional Requirements:
-1) Ask CAP theorem Availability or Consistency 
+1) Ask [[CAP theorem]] Availability or Consistency 
 1) Strong consistency for booking tickets and high availability for search and viewing events
 2) read >> write
 3) Scalability to handle surges from popular events 
@@ -452,7 +452,7 @@ Rider (ios/android) Client -> AWS Managed API Gateway (load balancing, routing, 
 
 Ride Service (handle fare estimates):
 - calls 3rd party mapping API call that given traffic gives eta to get from source to destination -> persist estimate in primary db. 
-- make call to rdie Matching service to get driver status
+- make call to ride Matching service to get driver status
 
 Ride object would have:
 - id, 
