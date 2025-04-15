@@ -49,7 +49,7 @@ enableToc: true
 - Relational DB (postgress)
 	- why use this? - use it more so with user data objects, linking tables together, more strict, more space and speed efficient for specific queries
 	- noSQL - better for unstructured data (more freeform), searching for key values
-	- *comment to note: I don't feel as though there was enough thought put into the SQL vs NoSQL discussion. In my opinion based on the non functional requirements presented to us for a highly available system and 1 million active users per day, I think the data scalability should be a huge consideration in that decisions but wasn't even mentioned. Horizontally scaling a SQL database is possible with sharding etc. but can be complicated to do. NoSQL can pretty trivially and cost effectively scale horizontally especially in cloud environments. And the data we are storing related to the videos is just small chunks, we aren't really leveraging a lot of structured data schemas or anything like that. I don't know, I just think I challenge that decision a little bit.
+	- *comment to note: I don't feel as though there was enough thought put into the SQL vs NoSQL discussion. In my opinion based on the non functional requirements presented to us for a highly available system and 1 million active users per day, I think the data scalability should be a huge consideration in that decisions but wasn't even mentioned. Horizontally scaling a SQL database is possible with [[Sharding]] etc. but can be complicated to do. NoSQL can pretty trivially and cost effectively scale horizontally especially in cloud environments. And the data we are storing related to the videos is just small chunks, we aren't really leveraging a lot of structured data schemas or anything like that. I don't know, I just think I challenge that decision a little bit.
 	- uploadVideo API -> video_table(RDB schema from above)
 	- uploadVideo API -> BLOB storage(actual video files stored here)
 - Follow up questions
@@ -334,7 +334,7 @@ High-Level Design
 -There are relationships, need consistency, use postgress SQL, but NoSQL would be fine too. In interview SQL vs NoSQL is old debate.
 - Search Service: SELECT * From DB WHERE type in [] AND name like '%term%' but super slow b/c of wildcards
 - Booking service: reserve(ticketID) -> update DB such that we update ticketId in ticket table's status field to reserved, available, booked. Then we make confirm(ticketId, paymentDetails) request. You can usually abstract Stripe/payment away. Stripe will handle request asynchronously. It will respond back with callback URL. Have some endpoint in booking service that it will callback too. If response is successful, then update ticket's status to booked. 
-- Have a cron job that queries tickets db for tickets with reserved status and if timestamp > 10 min, set status back to available 
+- Have a [[CRONJob]] that queries tickets db for tickets with reserved status and if timestamp > 10 min, set status back to available 
 - Need something a bit more in real time. Get rid of chronjob and timestamp. Use ticket Lock (redis). When ticket is reserved, add to redis, {ticketId: true} TTL 10
 - When user tries to reserve ticket, don't write to DB, instead lock ticket. Use distributed lock because there will be multiple instances of booking service. 
 - What would happen if lock does down? 
@@ -399,7 +399,7 @@ Non-Functional requirements:
 - low latency matching less than 1 min to match or failure
 - consistency of matching. Ride to driver is 1:1
 - highly available outside matching 
-- handle high throughput, surges for peak hours or special events. 100s of thousands of requests/region
+- handle high [[Throughput]], surges for peak hours or special events. 100s of thousands of requests/region
 Out-of-scope:
 - GDPR user privacy 
 - resilience and handling system failures
