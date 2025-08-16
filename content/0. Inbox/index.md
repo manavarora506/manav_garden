@@ -1,5 +1,5 @@
 ---
 title: Inbox
-date: 2023-11-10
+date: 2025-08-16
 ---
 Quick capture area for new ideas and thoughts that need to be processed and organized later. 

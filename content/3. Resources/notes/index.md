@@ -1,5 +1,5 @@
 ---
 title: Notes
-date: 2023-11-10
+date: 2025-08-16
 ---
 All of my notes live here!

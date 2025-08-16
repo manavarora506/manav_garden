@@ -1,5 +1,5 @@
 ---
 title: Family
-date: 2023-11-10
+date: 2025-08-16
 ---
 Personal and family-related goals, responsibilities, and areas of focus. 

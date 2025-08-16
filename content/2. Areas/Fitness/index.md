@@ -1,5 +1,5 @@
 ---
 title: Fitness
-date: 2023-11-10
+date: 2025-08-16
 ---
 Health, fitness goals, workout routines, and wellness tracking. 

@@ -1,5 +1,5 @@
 ---
 title: Money
-date: 2023-11-10
+date: 2025-08-16
 ---
 Financial planning, budgeting, investments, and money management strategies. 

@@ -1,5 +1,5 @@
 ---
 title: Goals
-date: 2023-11-10
+date: 2025-08-16
 ---
 Long-term goals, objectives, and milestones across different areas of life. 
