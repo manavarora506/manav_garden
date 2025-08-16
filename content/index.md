@@ -9,7 +9,9 @@ enableToc: true
 
 I'm [Manav](https://manavarora.me). I'll mainly write notes here about [[Dallas Mavericks|mavs]], generative AI, and [[Things I'm Building|Things I'm Building]]. You can browse on the left, explore the graph on the right, or search the whole site with `⌘+K`.
 
-[[notes|All notes]] are in one of three states:
+All notes are in one of three states:
 - [[seed|Seed]]: brief ideas
 - [[sapling|Sapling]]: fully-formed thoughts
 - [[evergreen|Evergreen]]: permanent, constantly growing
+
+You can start here [[0. Inbox/index|Inbox]]
