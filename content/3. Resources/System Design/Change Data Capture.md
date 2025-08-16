@@ -1,0 +1,9 @@
+- Process of recognizing when data has changed in a source system so a downstream system can take an action based on that change
+- What happens every time data changes
+	- Source system pushes change to kafka
+	- Target system listens to topic and consumes messages
+	- Target system applies changes
+- Replicate data in other dbs (data warehouses or data lakes)
+- Stream processing based on data changes
+- invalidate or update cache
+- async jobs based on data changes 

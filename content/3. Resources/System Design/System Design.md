@@ -175,7 +175,7 @@ name->string
 email -> string
 
 Calendar:
-id->primary ket, serial, uuid
+id->primary key, serial, uuid
 name -> string
 description -> string
 timezone -> timezone

@@ -1,0 +1,2 @@
+
+This is a very complicated system. And life is one damn related-ness after another. It's all right to think that, on balance, you suspect that civilization is better if it lowers the minimum wage or raises it. Either position is okay. But being totally sure on issues like that with a strong, violent idealogy, in my opinion, turns you into a lousy thinker. So beware of idealogy-based mental misfunctions.

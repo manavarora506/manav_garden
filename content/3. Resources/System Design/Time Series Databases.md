@@ -1,0 +1,27 @@
+
+- Database purpose built to store time series data
+- Data is sequence of data points over a time interval
+- Examples:
+	- Sensor Data
+	- Weather Data
+	- System Monitoring Data
+	- Website Activity data
+	- Stock prices
+- How is time series data unique?
+	- very high write throughput
+	- regular and irregular writes
+	- data needs to be highly compressed
+	- large range scans of many record
+	- write to latest time entry only
+	- native support for summaries, aggregation and rollups
+- Look at some queries
+	- Daily stock price of AMZN
+	- Daily average temperature in San Francisco
+	- Unique website visits every month
+	- Highest revenue months in last 5 years
+	- Average uber ride prices by city
+- Examples
+	- QuestDB
+	- Timescale DB
+	- Cassandra (NoSQL)
+	- Amazon timestream

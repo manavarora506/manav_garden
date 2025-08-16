@@ -1,0 +1,26 @@
+
+- A type of db that stores file or Binary Large Objects
+- Can't just use normal db's b/c they are better suited for fast queries, less storage
+	- Big files bloat pages, slow every query
+	- replicas and backups copy blobs, huge lag and downtime
+	- DB storage costs 10X more than object storage
+- How does Object Storage work?
+	- Flat namespace = quick file lookups
+	- Immutable writes = no locks or races
+	- Redundancy = "11 nines" of durability
+	- client GET /file1 -> Metadata service (lookup file) -> stream back to client
+- What should you know for an interview?
+	- Large files stored in Object storage, metadata in "traditional" db
+	- Examples:
+		- Photos/ videos for a social-media or messaging app
+		- User-uploaded docs for a file-sharing or collab tool
+		- Static web assets (images, CSS, JS) served behind a CDN
+		- Log and event archives feeding analytics or security pipelines
+		- Backup snapshots and db dumbs for disaster recovery
+		- Machine-learning training datasets (images, audio, etc)
+- You can upload directly to your object storage via presigned urls
+- Large files are uploaded in chunks and object storage will "stitch" the file back together
+- Examples of popular Object (BLOB) stores?
+	- Amazon S3
+	- Google Cloud Storage
+	- Azure Blob Storage

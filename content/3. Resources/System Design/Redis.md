@@ -1,0 +1,9 @@
+- Single threaded in memory data structure
+- Requests process as they are made
+- lightning fast for simple operations
+- slot -> hash of key where key resides 
+- Often you can have a hot key problem, so then you can append random key to it to fix issue
+- What's the expiration policy? You can say expire after x seconds. You can use Least Recently Used setup.
+- You can use redis as rate limiter. 
+- You can redis as stream of ordered hashes. Eg. Async Job Queue
+- You can used redis as pub/sub. Eg. Chat room. Servers can connect to redis, announce publication and then other serves can subscribe to that topic

@@ -1,0 +1,35 @@
+_Notes for the week of <% tp.date.weekday("YYYY-MM-DD", 1) %>._  
+  
+# Medium  
+  
+## [SEO](https://linear.app/medium/initiative/seo-7ac0b/overview)  
+  
+- [ ]  
+  
+## Medium (general)  
+  
+- [ ] Write project updates in [Linear](https://linear.app/medium/projects/view/projects-that-i-lead-7ac0b) using the [Linear project update template](2.%20Areas/Medium/Linear%20project%20update%20template.md)  
+  
+# Personal  
+  
+- [ ] (Friday) Weekly review  
+- [ ] Write a summary of this past week in this document  
+- [ ] Add my commits to the _Changelog_ section of this document  
+- [ ] Add meeting notes to the _Meeting notes_ section of this document  
+- [ ] Clear computer  
+- [ ] Clear desk  
+- [ ] Clear email inbox  
+- [ ] Check calendar  
+- [ ] Check [Linear](https://linear.app/medium/inbox)  
+- [ ] Clear the inbox (`0. Inbox`)  
+- [ ] Choose tasks for next week  
+  
+# Changelog  
+  
+```shell  
+git log --author="manavistyping" --since="1 week ago" --pretty=format:"- [%s](https://github.com/Medium/mono/commit/%H) (%ad)" --date=format:"%Y-%m-%d %H:%M" | pbcopy  
+```  
+  
+# Meeting notes  
+  
+-
