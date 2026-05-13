@@ -1,88 +1,57 @@
 ---
 title: "Week {{date:YYYY-[W]ww}}"
+week_start: <% tp.date.weekday("YYYY-MM-DD", 1) %>
 tags:
   - weekly
 ---
 
-_Notes for the week of <% tp.date.weekday("YYYY-MM-DD", 1) %>._
+_Week of <% tp.date.weekday("MMM D", 1) %> – <% tp.date.weekday("MMM D", 5) %>_
 
 ---
 
-## Weekly Goals
-- [ ]
-- [ ]
-- [ ]
+## Goals This Week
+> Pick 2-3 from [[goals|rolling goals]].
+
+- [ ] 
+- [ ] 
+- [ ] 
 
 ---
 
-## Monday (<% tp.date.weekday("MM-DD", 1) %>)
+## Wins
+> 3 bullets max. Work, health, habits, relationships.
 
-**Stream of consciousness:**
-
-
-**Todos:**
-- [ ]
-
----
-
-## Tuesday (<% tp.date.weekday("MM-DD", 2) %>)
-
-**Stream of consciousness:**
-
-
-**Todos:**
-- [ ]
+- 
+- 
+- 
 
 ---
 
-## Wednesday (<% tp.date.weekday("MM-DD", 3) %>)
+## Goals: Met vs. Missed
 
-**Stream of consciousness:**
-
-
-**Todos:**
-- [ ]
-
----
-
-## Thursday (<% tp.date.weekday("MM-DD", 4) %>)
-
-**Stream of consciousness:**
-
-
-**Todos:**
-- [ ]
+| Goal | Status | Note |
+|------|--------|------|
+|      | ✅ / ❌ |      |
+|      | ✅ / ❌ |      |
+|      | ✅ / ❌ |      |
 
 ---
 
-## Friday (<% tp.date.weekday("MM-DD", 5) %>)
+## What Slowed Me Down
+> 1-2 bullets. Blockers, bad habits, energy drains.
 
-**Stream of consciousness:**
-
-
-**Todos:**
-- [ ]
+- 
 
 ---
 
-## Weekend
+## Carry Forward
+> Max 3 items for next week.
 
-**Stream of consciousness:**
-
-
-**Todos:**
-- [ ]
+- [ ] 
+- [ ] 
 
 ---
 
-## Questions & Learning
+## Free Reflection
+> Optional. Patterns noticed, something that surprised you.
 
-
----
-
-## Reading List
-- [ ]
-
----
-
-## Weekly Review (AI Summary + Insights)
