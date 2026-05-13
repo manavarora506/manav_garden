@@ -2,4 +2,6 @@
 title: Projects
 date: 2025-08-16
 ---
-Active projects and initiatives I'm currently working on or planning to start. 
+This folder tracks all of my substack articles and any ideas of future newletters
+
+

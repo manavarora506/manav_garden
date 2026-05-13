@@ -72,3 +72,142 @@ PATCH - to update specific data in the server
 DELETE - to delete a resource in the server
 
 HATEOAS is an acronym for **H**ypermedia **A**s **T**he **E**ngine **O**f **A**pplication **S**tate, it’s the concept that when sending information over a RESTful API the document received should contain everything the client needs in order to parse and use the data i.e they don’t have to contact any other endpoint not explicitly mentioned within the Document
+
+
+print("Hello LeetCoder")
+
+  
+  
+
+"""
+
+Example Trie, where we have words
+
+  
+
+A
+
+P
+
+P
+
+L
+
+E (endOfWord)
+
+  
+
+Delete(ANT)
+
+  
+  
+
+We can only remove a letter if it's children are empty
+
+We can't remove a letter if it has more than one child
+
+  
+
+Delete(APP)
+
+  
+  
+  
+  
+  
+
+"""
+
+  
+  
+  
+
+"""
+
+Example Trie, where we have words
+
+root
+
+A
+
+P
+
+P
+
+L
+
+E (endOfWord)
+
+  
+
+remove(APP, 0, None)
+
+remove(APP, 1, A)
+
+remove(APP, 2, P)
+
+remove(APP, 3, P)
+
+  
+
+Re
+
+  
+
+"""
+
+  
+
+class TrieNode:
+
+def __init__(self, value):
+
+self.value = value
+
+self.isEndOfWord = False
+
+self.children = {}
+
+  
+
+class Trie:
+
+"""
+
+Feedback:
+
+Ideal scenario:
+
+Implementation needs to be a lot quicker
+
+Need to do more recursive tree questions
+
+Just be faster
+
+Take this as HW. Figure out the gaps. Try to solve in multiple ways
+
+Use AI to build autocomplete.
+
+"""
+
+def __init__(self)
+
+self.root = TrieNode()
+
+def remove(self, word, index, parent):
+
+current = self.root
+
+if index == len(word):
+
+current.isEndOfWord = False
+
+else:
+
+current = self.root[word[index]]
+
+remove(word, index + 1, current)
+
+if not current.children:
+
+del parent.children[current]
