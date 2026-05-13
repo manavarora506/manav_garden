@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "google", tagId: "G-RHMX38K2KP",
     },
     baseUrl: "www.manavarora.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian", "2. Areas", "4. Archive", "Weekly"],
+    ignorePatterns: ["private", "templates", ".obsidian", "0. Inbox", "2. Areas", "4. Archive", "Weekly", "Hermes", "copilot"],
     defaultDateType: "created",
     theme: {
       typography: {
