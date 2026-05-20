@@ -33,3 +33,5 @@ Dishwasher detergent
 - [ ] Towels
 
 - [ ] Mouthwash
+
+- [ ] Helmet
