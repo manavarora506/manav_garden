@@ -15,3 +15,5 @@ Dishwasher detergent
 
 
 - [ ] Dry rack
+
+- [ ] Shower curtain
