@@ -17,3 +17,5 @@ Dishwasher detergent
 - [ ] Dry rack
 
 - [ ] Shower curtain
+
+- [ ] Ring camera
