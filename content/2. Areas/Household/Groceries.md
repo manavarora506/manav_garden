@@ -19,3 +19,5 @@ Dishwasher detergent
 - [ ] Shower curtain
 
 - [ ] Ring camera
+
+- [ ] Comfort
