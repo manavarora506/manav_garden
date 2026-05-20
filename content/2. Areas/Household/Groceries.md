@@ -25,3 +25,9 @@ Dishwasher detergent
 - [ ] Shampoo
 
 - [ ] Conditioner
+
+- [ ] Pillows
+
+- [ ] Bedsheets
+
+- [ ] Towels
