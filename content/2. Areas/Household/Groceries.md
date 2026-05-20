@@ -20,4 +20,4 @@ Dishwasher detergent
 
 - [ ] Ring camera
 
-- [ ] Comfort
+- [ ] Bed comforter
