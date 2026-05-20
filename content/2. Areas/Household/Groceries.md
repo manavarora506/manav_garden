@@ -31,3 +31,5 @@ Dishwasher detergent
 - [ ] Bedsheets
 
 - [ ] Towels
+
+- [ ] Mouthwash
