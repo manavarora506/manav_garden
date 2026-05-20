@@ -21,3 +21,7 @@ Dishwasher detergent
 - [ ] Ring camera
 
 - [ ] Bed comforter
+
+- [ ] Shampoo
+
+- [ ] Conditioner
