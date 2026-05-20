@@ -13,3 +13,5 @@ Dishwasher detergent
 	- Sponge  
 	- Greek yogurt    
 
+
+- [ ] Dry rack
